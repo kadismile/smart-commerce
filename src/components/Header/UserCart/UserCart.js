@@ -1,5 +1,5 @@
 import React from "react";
-import CartItem from "./CartItem";
+import CartItems from "./CartItems";
 
 const UserCart = () => {
   return (
@@ -36,7 +36,7 @@ const UserCart = () => {
           </form>
         </div>
       </li>
-      <CartItem />
+      <CartItems />
     </ul>
   );
 };
