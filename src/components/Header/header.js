@@ -1,7 +1,7 @@
 import React from "react";
 import Logo from "./Logo";
 import SearchBar from "./SearchBar";
-import UserCart from "./UserCart";
+import UserCart from "./UserCart/UserCart";
 
 function Header() {
   return (
@@ -684,7 +684,10 @@ function Header() {
                                     >
                                       <option value={1}>1</option>
                                       <option value={2}>2</option>
-                                      <option value={3} selected="selected">
+                                      <option
+                                        value={3}
+                                        // selected="selected"
+                                      >
                                         3
                                       </option>
                                       <option value={4}>4</option>
@@ -706,7 +709,13 @@ function Header() {
                                       <div className="def-number-input number-input safari_only">
                                         <button
                                           className="minus"
-                                          onClick="this.parentNode.querySelector('input[type=number]').stepDown()"
+                                          onClick={() => {
+                                            this.parentNode
+                                              .querySelector(
+                                                "input[type=number]"
+                                              )
+                                              .stepDown();
+                                          }}
                                         >
                                           <i className="icon-minus" />
                                         </button>
@@ -719,7 +728,13 @@ function Header() {
                                         />
                                         <button
                                           className="plus"
-                                          onClick="this.parentNode.querySelector('input[type=number]').stepUp()"
+                                          onClick={() => {
+                                            this.parentNode
+                                              .querySelector(
+                                                "input[type=number]"
+                                              )
+                                              .stepUp();
+                                          }}
                                         >
                                           <i className="icon-plus" />
                                         </button>
@@ -1255,7 +1270,10 @@ function Header() {
                                           <option value={1}>1</option>
                                           <option value={2}>2</option>
                                           <option value={3}>3</option>
-                                          <option value={4} selected="selected">
+                                          <option
+                                            value={4}
+                                            // selected="selected"
+                                          >
                                             4
                                           </option>
                                           <option value={5}>5</option>
@@ -1276,7 +1294,13 @@ function Header() {
                                           <div className="def-number-input number-input safari_only">
                                             <button
                                               className="minus"
-                                              onClick="this.parentNode.querySelector('input[type=number]').stepDown()"
+                                              onClick={() => {
+                                                this.parentNode
+                                                  .querySelector(
+                                                    "input[type=number]"
+                                                  )
+                                                  .stepDown();
+                                              }}
                                             >
                                               <i className="icon-minus" />
                                             </button>
@@ -1289,7 +1313,13 @@ function Header() {
                                             />
                                             <button
                                               className="plus"
-                                              onClick="this.parentNode.querySelector('input[type=number]').stepUp()"
+                                              onClick={() => {
+                                                this.parentNode
+                                                  .querySelector(
+                                                    "input[type=number]"
+                                                  )
+                                                  .stepUp();
+                                              }}
                                             >
                                               <i className="icon-plus" />
                                             </button>
@@ -1435,7 +1465,10 @@ function Header() {
                                           <option value={1}>1</option>
                                           <option value={2}>2</option>
                                           <option value={3}>3</option>
-                                          <option value={4} selected="selected">
+                                          <option
+                                            value={4}
+                                            // selected="selected"
+                                          >
                                             4
                                           </option>
                                           <option value={5}>5</option>
@@ -1456,7 +1489,13 @@ function Header() {
                                           <div className="def-number-input number-input safari_only">
                                             <button
                                               className="minus"
-                                              onClick="this.parentNode.querySelector('input[type=number]').stepDown()"
+                                              onClick={() => {
+                                                this.parentNode
+                                                  .querySelector(
+                                                    "input[type=number]"
+                                                  )
+                                                  .stepDown();
+                                              }}
                                             >
                                               <i className="icon-minus" />
                                             </button>
@@ -1469,7 +1508,13 @@ function Header() {
                                             />
                                             <button
                                               className="plus"
-                                              onClick="this.parentNode.querySelector('input[type=number]').stepUp()"
+                                              onClick={() => {
+                                                this.parentNode
+                                                  .querySelector(
+                                                    "input[type=number]"
+                                                  )
+                                                  .stepUp();
+                                              }}
                                             >
                                               <i className="icon-plus" />
                                             </button>
@@ -1611,7 +1656,10 @@ function Header() {
                                         >
                                           <option value={1}>1</option>
                                           <option value={2}>2</option>
-                                          <option value={3} selected="selected">
+                                          <option
+                                            value={3}
+                                            //  selected="selected"
+                                          >
                                             3
                                           </option>
                                           <option value={4}>4</option>
@@ -1633,7 +1681,13 @@ function Header() {
                                           <div className="def-number-input number-input safari_only">
                                             <button
                                               className="minus"
-                                              onClick="this.parentNode.querySelector('input[type=number]').stepDown()"
+                                              onClick={() => {
+                                                this.parentNode
+                                                  .querySelector(
+                                                    "input[type=number]"
+                                                  )
+                                                  .stepDown();
+                                              }}
                                             >
                                               <i className="icon-minus" />
                                             </button>
@@ -1646,7 +1700,13 @@ function Header() {
                                             />
                                             <button
                                               className="plus"
-                                              onClick="this.parentNode.querySelector('input[type=number]').stepUp()"
+                                              onClick={() => {
+                                                this.parentNode
+                                                  .querySelector(
+                                                    "input[type=number]"
+                                                  )
+                                                  .stepUp();
+                                              }}
                                             >
                                               <i className="icon-plus" />
                                             </button>
@@ -1794,7 +1854,10 @@ function Header() {
                                           <option value={2}>2</option>
                                           <option value={3}>3</option>
                                           <option value={4}>4</option>
-                                          <option value={5} selected="selected">
+                                          <option
+                                            value={5}
+                                            //  selected="selected"
+                                          >
                                             5
                                           </option>
                                         </select>
@@ -1814,7 +1877,13 @@ function Header() {
                                           <div className="def-number-input number-input safari_only">
                                             <button
                                               className="minus"
-                                              onClick="this.parentNode.querySelector('input[type=number]').stepDown()"
+                                              onClick={() => {
+                                                this.parentNode
+                                                  .querySelector(
+                                                    "input[type=number]"
+                                                  )
+                                                  .stepDown();
+                                              }}
                                             >
                                               <i className="icon-minus" />
                                             </button>
@@ -1827,7 +1896,13 @@ function Header() {
                                             />
                                             <button
                                               className="plus"
-                                              onClick="this.parentNode.querySelector('input[type=number]').stepUp()"
+                                              onClick={() => {
+                                                this.parentNode
+                                                  .querySelector(
+                                                    "input[type=number]"
+                                                  )
+                                                  .stepUp();
+                                              }}
                                             >
                                               <i className="icon-plus" />
                                             </button>
