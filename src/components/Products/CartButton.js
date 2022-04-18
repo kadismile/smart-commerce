@@ -1,6 +1,6 @@
 import React from "react";
 
-const Cartbutton = () => {
+const CartButton = () => {
   return (
     <a
       className="ps-btn ps-btn--warning"
@@ -13,4 +13,4 @@ const Cartbutton = () => {
   );
 };
 
-export default Cartbutton;
+export default CartButton;
