@@ -154,48 +154,6 @@ function SideMenu() {
                 </li>
               </ul>
             </li>
-
-            <li className="menu-item-has-children">
-              <a href="#/">Hair Care</a>
-              <span className="sub-toggle">
-                <i className="fa fa-chevron-down" />
-              </span>
-              <ul className="sub-menu">
-                <li>
-                  <a href="category-list.html">Shampoo & Conditioner</a>
-                </li>
-                <li>
-                  <a href="category-list.html">Hair Accessories</a>
-                </li>
-                <li>
-                  <a href="category-list.html">Hair cutting tools</a>
-                </li>
-                <li>
-                  <a href="category-list.html">Hair & Scalp Care</a>
-                </li>
-              </ul>
-            </li>
-
-            <li className="menu-item-has-children">
-              <a href="#/">Makeup</a>
-              <span className="sub-toggle">
-                <i className="fa fa-chevron-down" />
-              </span>
-              <ul className="sub-menu">
-                <li>
-                  <a href="category-list.html">Foundation</a>
-                </li>
-                <li>
-                  <a href="category-list.html">Powder</a>
-                </li>
-                <li>
-                  <a href="category-list.html">Lipstick</a>
-                </li>
-                <li>
-                  <a href="category-list.html">Eyeshadow</a>
-                </li>
-              </ul>
-            </li>
           </ul>
 
           <div className="ps-menu__item">
