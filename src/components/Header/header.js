@@ -1992,7 +1992,7 @@ function Header() {
             <div className="ps-logo">
               <a href="index-2.html">
                 {" "}
-                <img src="img/mobile-logo.png" alt="" />
+                <img src="img/city-mart-logo.png" alt="" />
               </a>
             </div>
             <div className="ps-header__right">

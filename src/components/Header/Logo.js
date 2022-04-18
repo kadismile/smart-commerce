@@ -5,8 +5,8 @@ const Logo = () => {
     <div className="ps-logo">
       <a href="index-2.html">
         {" "}
-        <img src="img/logo.png" alt="" />
-        <img className="sticky-logo" src="img/sticky-logo.png" alt="" />
+        <img src="img/city-mart-logo.png" alt="" />
+        <img className="sticky-logo" src="img/city-mart-logo.png" alt="" />
       </a>
     </div>
   );
