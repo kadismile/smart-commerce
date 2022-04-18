@@ -1,5 +1,5 @@
 import React from "react";
-import Cartbutton from "./CartButton";
+import CartButton from "./CartButton";
 
 function ProductQty() {
   return (
@@ -26,7 +26,7 @@ function ProductQty() {
           <i className="icon-plus" />
         </button>
       </div>
-      <Cartbutton />
+      <CartButton />
     </div>
   );
 }
