@@ -5,23 +5,23 @@ import Footer from "./components/Footer/footer";
 import Home from "./pages/home";
 import MobileSearch from "./components/Mobile/SearchMobile/mobile-search";
 import SideMenu from "./components/Mobile/SideMenu";
-
+import Product from "./pages/Product";
 
 function App() {
-
-  const  routes = useRoutes([
+  const routes = useRoutes([
     { path: "/", element: <Home /> },
+    { path: "/product", element: <Product /> },
   ]);
 
   return (
     <>
       <div className="ps-page">
         <Header />
-          { routes }
-        <Footer/>
+        {routes}
+        <Footer />
       </div>
-      <MobileSearch/>
-      <SideMenu/>
+      <MobileSearch />
+      <SideMenu />
     </>
   );
 }
