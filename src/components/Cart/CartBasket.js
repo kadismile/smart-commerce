@@ -1,7 +1,7 @@
 import React from "react";
 import ProductPrice from "../Products/ProductPrice";
 import ProductTitle from "../Products/ProductTitle";
-import CartEject from "./CartEject";
+import RemoveFromCart from "./RemoveFromCart";
 import Subtotal from "./Subtotal";
 
 const CartBasket = () => {
@@ -17,7 +17,7 @@ const CartBasket = () => {
               <ProductTitle />
               <ProductPrice />
             </div>
-            <CartEject />
+            <RemoveFromCart />
           </div>
         </li>
       </ul>

@@ -1,6 +1,6 @@
 import React from "react";
 
-const CartEject = () => {
+const RemoveFromCart = () => {
   return (
     <a
       className="ps-product__remove"
@@ -12,4 +12,4 @@ const CartEject = () => {
   );
 };
 
-export default CartEject;
+export default RemoveFromCart;
