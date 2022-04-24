@@ -20,7 +20,10 @@ const Cart = () => {
             <div className="col-12 col-md-7 col-lg-9">
               <table
                 className="table ps-shopping__list"
-                style={{ maxWidth: "100%", color: "#103178" }}
+                style={{
+                  maxWidth: "100%",
+                  color: "#103178",
+                }}
               >
                 <thead>
                   <tr
