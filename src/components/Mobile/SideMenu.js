@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function SideMenu() {
   return (
@@ -13,9 +14,9 @@ function SideMenu() {
           </a>
         </div>
         <div className="ps-nav__item">
-          <a href="index-2.html">
+          <Link to="/">
             <i className="icon-home2" />
-          </a>
+          </Link>
         </div>
         <div className="ps-nav__item">
           <a href="my-account.html">
@@ -23,10 +24,10 @@ function SideMenu() {
           </a>
         </div>
         <div className="ps-nav__item">
-          <a href="shopping-cart.html">
+          <Link to="/cart">
             <i className="icon-cart-empty" />
             <span className="badge">2</span>
-          </a>
+          </Link>
         </div>
       </div>
       <div className="ps-menu--slidebar">
