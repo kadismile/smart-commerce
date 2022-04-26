@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import ProductPrice from "../Products/ProductPrice";
 import ProductTitle from "../Products/ProductTitle";
 import RemoveFromCart from "./RemoveFromCart";
@@ -23,9 +24,9 @@ const CartBasket = () => {
       </ul>
       <Subtotal />
       <div className="ps-cart__footer">
-        <a className="ps-btn ps-btn--outline" href="shopping-cart.html">
+        <Link className="ps-btn ps-btn--outline" to="cart">
           View Cart
-        </a>
+        </Link>
         <a className="ps-btn ps-btn--warning" href="checkout.html">
           Checkout
         </a>

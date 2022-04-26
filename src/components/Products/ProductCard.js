@@ -14,18 +14,6 @@ const ProductCard = () => {
                 <img src="img/products/052.jpg" alt="alt" />
               </figure>
             </a>
-            <div className="ps-product__actions">
-              <div
-                className="ps-product__item"
-                data-toggle="tooltip"
-                data-placement="left"
-                title="Quick view"
-              >
-                <a href="#/" data-toggle="modal" data-target="#popupQuickview">
-                  <i className="fa fa-search" />
-                </a>
-              </div>
-            </div>
             <div className="ps-product__badge">
               <div className="ps-badge ps-badge--sale">Sale</div>
             </div>

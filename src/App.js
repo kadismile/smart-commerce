@@ -6,11 +6,15 @@ import Home from "./pages/home";
 import MobileSearch from "./components/Mobile/SearchMobile/mobile-search";
 import SideMenu from "./components/Mobile/SideMenu";
 import Product from "./pages/Product";
+import NotFound from "./pages/NotFound";
+import Cart from "./pages/Cart";
 
 function App() {
   const routes = useRoutes([
     { path: "/", element: <Home /> },
     { path: "/product", element: <Product /> },
+    { path: "/cart", element: <Cart /> },
+    { path: "*", element: <NotFound /> },
   ]);
 
   return (

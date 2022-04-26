@@ -8,7 +8,9 @@ function ProductQty() {
       <div className="def-number-input number-input safari_only">
         <button
           className="minus"
-          onclick="this.parentNode.querySelector('input[type=number]').stepDown()"
+          onClick={() =>
+            this.parentNode.querySelector("input[type=number]").stepDown()
+          }
         >
           <i className="icon-minus" />
         </button>
@@ -21,7 +23,9 @@ function ProductQty() {
         />
         <button
           className="plus"
-          onclick="this.parentNode.querySelector('input[type=number]').stepUp()"
+          onClick={() =>
+            this.parentNode.querySelector("input[type=number]").stepUp()
+          }
         >
           <i className="icon-plus" />
         </button>
